@@ -1,0 +1,79 @@
+/* 
+	Author: Kyle Jones
+	Date: 4/02/2021
+
+*/
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url('/font/AlexBrush-Regular.ttf') format('truetype');
+
+}
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+body{
+	background-color: #B8D1EB;
+	color: #000000;
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1{
+	font-family: 'New Tegomin', serif;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: normal;
+}
+
+h2{
+	font-family: 'AlexBrush-Regular';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 2em;
+}
+nav{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+main,ul{
+list-style-image: url('../images/canva-photo-editor.png');
+}
+
+main{
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+
+}
+
+main, footer { 
+clear: both;
+}
+
+footer{
+font-size: .75em;
+text-align: center;
+background-color: darkslategray;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+
+
