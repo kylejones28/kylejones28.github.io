@@ -63,14 +63,14 @@ aside blockquote {
 }
 
 aside blockquote::before {
-   content: STUDENT NEEDS TO FIND THE UNICODE VALUE FOR Open Quote; 
+   content: '\201C'; 
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
 }
 
 aside blockquote::after {
-   content: STUDENT NEEDS TO FIND THE UNICODE VALUE FOR Close Quote;
+   content: '\201D';
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.6em;
    font-weight: bold;
