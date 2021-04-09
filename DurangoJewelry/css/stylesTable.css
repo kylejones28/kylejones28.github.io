@@ -1,0 +1,43 @@
+/*Kyle Jones and 4/9/2021 */
+
+
+table {
+  width: 100%;
+  background-image: linear-gradient(#FFFFFF, #F0F9E6);
+  border-collapse: collapse;
+  border-width: 4px;
+  border-color: #DFA478; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+  
+}
+header img{
+  background-image: url("/images/necklace.jpg");
+  float: left;
+  border-radius: 50%;
+}
+
+body{
+  background-image: url('/images/jewelry.jpg');
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+h1, h2{
+  text-align: center;
+  margin-top: auto;
+}
+
+
+
+table td, tr {
+  border-width: 2px;
+  border-color: #DFA478;
+  border-style: solid;
+  padding: 15px;
+}
+
+table thead {
+  background-color: #DFA478;
+
+}

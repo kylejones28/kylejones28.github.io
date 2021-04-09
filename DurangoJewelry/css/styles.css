@@ -1,0 +1,60 @@
+
+/*Kyle Jones and 4/9/2021 */
+@font-face {
+    font-family: 'kaushanscript-regular';
+    src: url('/font/KaushanScript-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+main{
+	background-image: linear-gradient(#FFFFFF, #F0F9E6);
+	padding: 10px;
+	margin: 20px;
+	border-radius: 2em;
+	font-size: 1.25em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: left;
+}
+
+	 
+#outerwrapper{	
+	border-radius: 15%;
+	background: rgba(243,205,170, 0.4);
+	width: 70%;
+	text-align: center;
+	background-image:url('/images/jewelry.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+#addrightmargin{
+	margin-right: 10%;
+}
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+}
+
+h2{
+font-style: italic;
+font-size: 2em;
+
+}
+
+footer{
+	font-size: 1em;
+	text-align: center;
+	padding: 10px;
+}
+
+nav ul{
+list-style-type: none;
+font-size: 1.5em;
+text-align: left;
+}
+
+
