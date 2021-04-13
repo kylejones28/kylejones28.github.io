@@ -1,0 +1,28 @@
+.layer{
+transition: all 1.6s;
+}
+
+svg:hover .layer{
+   transform: scale(.8);
+}
+
+svg:hover #svg_2{
+fill: green;
+}
+
+svg:hover #svg_5{
+fill: red;
+}
+
+svg:hover #svg_6{
+    fill: green;
+}
+
+svg:hover #svg_7{
+    fill: whitesmoke;
+}
+
+svg:hover #svg_8{
+    fill: whitesmoke;
+}
+
