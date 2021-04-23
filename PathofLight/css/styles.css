@@ -1,0 +1,73 @@
+/* Name: Kyle Jones
+    Date: 4/23/2021 */
+
+ main,ul {
+    margin-left: 3em;
+    list-style-image: url('../images//yogabullet.png');
+
+}
+
+#scheduleTable{
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: .5em;
+    border-collapse: collapse; 
+}
+th{
+    border: 1px solid black;
+    width: 45%;
+    text-align: center;
+    padding: 1px;
+}
+td{
+    border:1px solid black;
+    text-align: center;
+    padding: 1px;
+}
+
+footer{
+    padding: .5em;
+}
+address{
+    margin-bottom: .5em;
+}
+
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+/*tablet*/
+@media screen and (min-width: 641px){
+	nav li{
+		display: inline-block;
+	}
+	
+	body{
+		background-color:#F5F5F5;
+	}
+	img{
+		display: block;
+		width: 100%;
+	}
+}
+/*mobile*/
+
+@media screen and (max-width: 640px){
+	nav{
+		display: block;
+	}
+	header{
+        background-image: none;
+    }
+	body{
+        background-image: url('../images/yogamobile.png');
+    }
+    img{
+        display: none;
+    }
+    
+
+}
