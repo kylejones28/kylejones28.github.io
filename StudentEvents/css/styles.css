@@ -10,7 +10,7 @@ File Name: styles.css
 
 .bg-red {
     background-color: #780001;
-    width: 100%;
+    bottom: 0;
 }
 
 .bg-light-blue {
