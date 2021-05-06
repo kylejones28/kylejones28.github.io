@@ -45,7 +45,7 @@
 }
 
 .wheel.back, .wheel.front{
-   animation: wheelSpin 3s cubic-bezier(.65,.87,.53,-0.27)infinite;
+   animation: wheelSpin 3s cubic-bezier(.65,.87,.53,4.27)infinite;
 }
 .car .wheel.back {
   left: 28px;
