@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--Name: Kyle Jones
+Date: 9/1/2021-->
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author: Kyle Jones                                      #
+#Date Created: 9/1/2021                                        #
+#Version:1                                                 #
+#Date Last Modified:   9/9/2021                             #
+#Modified by: Kyle Jones                                          #
+#Modification log:                                    #
+ --
+ Updated Javascript and Jquery!
+------------------------------------------------------------------------------------------------------------------>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="description" content="Project 2">
+    <meta name="author" content="Kyle Jones">
+    <meta name="keywords" content="facts, questions ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">  
+	<script src="/js/FAQs.js"></script>
+    <title>FAQs</title>
+
+</head>
+<header>
+	<div class="jumbotron text-center" style="margin-bottom:0">
+		<h1>Order from the White Lotus</h1> 
+	</div>
+	<nav class="navbar navbar-expand-sm">
+		<a class="navbar-brand" href="home.html">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="contact.html">Contact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="newsletter.html">Newsletter</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="FAQs.html">FAQs</a>
+			</li>    
+		  </ul>
+		</div>
+	 </nav> 
+</header>
+<body>
+	<main>
+	<section>
+        <h1>The Avatar FAQs</h1>       
+        <div id="accordion">
+             <h3>Who was the first ever Avatar??</h3>
+            <div>
+                <p>The first ever avatar was named Wan, he learned to coexist with the spirits 
+					and was determined to help bring balance between them and mandkind.
+                </p>
+            </div>
+            <h3>What are the four elements in the Avatar??</h3>
+            <div>
+                <p>Four Elements:</p>
+                <ul>
+                    <li>Water.</li>
+                    <li>Earth.</li>
+                    <li>Fire.</li>
+					<li>Air</li>
+                </ul>
+            </div>
+            <h3>What is the main message of Avatar The Last Airbender?</h3>
+            <div>
+                <p>The main message of the show was how we should honor and respect others even though we have our differences. 
+					Equality and justice for all people no matter what culture or nation you come from.
+                </p>
+            </div>
+        </div>
+    </section>
+	</main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>    
+    <script>
+        $(document).ready( () => 
+            $("#accordion").accordion({ 
+                active:false,
+                event: "dblclick",
+                heightStyle: "content",
+                collapsible: true 
+            })
+        )
+    </script>    
+    <!--<main id="faqs">
+        <h1 class="ask">Avatar FAQs</h1>
+		<div id="accordion">
+		<h2 class="questions"><a href="#">Who was the first ever Avatar?</a></h2>
+		<div>
+			<p> The first ever avatar was named Wan, he learned to coexist with the spirits 
+				and was determined to help bring balance between them and mandkind</b>.
+			</p>
+		</div>
+		<h2 class="questions"><a href="#">What are the four elements in the Avatar?</a></h2>
+		<div>
+			<p>Four elements:</p>
+			<ul>
+				<li>Water.</li>
+				<li>Earth.</li>
+				<li>Fire.</li>
+				<li>Air.</li>
+			</ul>
+		</div>
+		<h2 class="questions"><a href="#">What is the main message of Avatar The Last Airbender?</a></h2>
+		<div>
+			<p>The main message of the show was how we should honor and respect others even though we have our differences. 
+				Equality and justice for all people no matter what culture or nation you come from.
+			</p>
+		</div>
+		</div>
+    </main>-->
+	<footer>
+	<p>&copy; Copy rights reserved</p>
+	<p>Order from the White Lotus</p>
+	</footer>
+</body>
+</html>
