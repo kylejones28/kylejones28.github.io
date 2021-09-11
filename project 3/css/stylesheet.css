@@ -1,0 +1,276 @@
+/* Name: Kyle Jones
+    Date: 8/26/2021*/
+    /*<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author: Kyle Jones                                      #
+#Date Created: 8/27/2021                                        #
+#Version:1                                                 #
+#Date Last Modified: 9/8/2021                                #
+#Modified by: Kyle Jones                                          #
+#Modification log: version #2                                   #
+ --
+ source; avatar hoodie
+ https://monostache.storenvy.com/collections/886591-jewelry-necklaces/products/9923713-element-benders-single-necklace-handmade-avatar-the-last-airbender-legen
+ source; aang hooded tank top
+https://hoodieblast.com/collections/cartoon-clothing/products/avatar-state-aang-hooded-tank
+source; necklaces of the 4 elements
+https://www.etsy.com/listing/267458500/avatar-the-last-airbender-all-four
+source; avatar decor
+https://www.amazon.com/avatar-last-airbender-decor/s?k=avatar+the+last+airbender+decor
+source;avatar tapestry
+https://www.amazon.com/LHYSPORT-Airbender-Tapestry-Decorations-Printing/dp/B08K4BTK3L 
+source; hooded tank top of avatar
+https://tinohouse.com/aang-hooded-tank-cute-aang-avatar-last-airbender-clothing-art2323-3d-all-over-print-hoodie-860/
+------------------------------------------------------------------------------------------------------------------>
+
+/*HTML STYLES*/
+html {
+    margin: 0;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*BODY STYLES*/
+body{
+    margin: 0;
+    background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c3026), url('/images/map1.jpg');
+}
+ 
+    
+/* HEADER STYLES*/  
+h1{
+    font-family: 'Anton', sans-serif; 
+    text-align: center;
+    color: whitesmoke;
+    
+}
+.nav-item a:hover{
+color: white;
+}
+
+
+
+header .jumbotron{ 
+background-image:url('../images/canva-photo-editor\ \(3\).png' );
+background-position: center center;
+width: 100%;
+background-repeat: no-repeat;
+height: 200px;
+padding-top: 100px;
+}
+
+
+header .jumbotron h1{
+color: black;
+}
+
+ 
+
+nav{
+background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c302698), url('/images/map1.jpg');
+text-align: center;
+text-decoration: none;
+color: white;
+}
+
+nav li{
+display: inline;
+padding: 0px;
+
+}
+nav a{
+    color: black;
+    font-size: 1.5em;
+}
+
+.title {
+    color:white;
+    font-size: 40px;
+}
+
+/*MAIN  STYLES*/
+
+
+
+main{
+    margin: auto;
+    border-radius: 10%;
+    background-color: #9c6e29;
+    text-align: center;
+    border-style:double;
+    height: 600px;
+}
+
+.caption h2{
+   font-size: 120%; 
+   padding: .5em 0;
+}
+
+#slides img {
+	display: none;
+    width: 60%;
+    margin: auto;
+
+}
+
+
+.fire{
+    border: 3px double white;
+    height: 470px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h1.ask{
+
+    font-size: 200%;
+}
+
+#faqs h2{
+    font-size: 2.5em;
+    cursor: pointer;
+    background-repeat: no-repeat; 
+    display: block;
+    margin-left: 50px;
+}
+
+
+#faqs a{
+    color: white;
+}
+#faqs p{
+    font-size: 1.5em;
+    color: black;
+}
+
+#faqs div li{
+    text-align: center;
+    font-size: 1.5em;
+}
+main h2{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1.5em;
+}
+
+/*main img{
+    width: 13%;
+    height: auto;
+    border-radius: 5px;
+    border-style: hidden;
+}*/
+main p{
+font-size: larger;
+}
+main ul{
+    list-style-type: none;
+}
+main li{
+    text-align: center;
+}
+
+.page{
+    font-size: 1.3em;
+}
+
+.news{
+    font-size: 1.3em;
+}
+/* FORM STYLES*/
+
+fieldset{
+    margin:0 25%;
+}
+
+/*#box1,#box2,#box3,#box4,#box5,#box6,#box7{
+border: 1px solid black;
+padding: 10px 0px;
+}*/
+
+div ul li{
+    text-align: left;
+    
+}
+
+a:focus a:hover{
+    color: white;
+}
+
+#faqs div{
+    display: none;
+}
+#faqs div.open{
+    display: block;
+}
+
+section{
+    padding: 15px 25px;
+    width: 650px;
+    margin: 0 auto;
+}
+
+#accordion h3{
+    font-size: 1.5em;
+}
+
+#accordion p{
+    font-size: 1.2em;
+}
+
+#accordion li{
+    font-size: 1.2em;
+}
+
+#radiobutton{
+    margin-left: 40%;
+}
+#submit {
+    background-color: darkgray;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    border-style: ridge;
+  }
+
+
+/* FOOTER STYLES*/
+
+footer {
+    background-color:whitesmoke;
+     text-align: center;
+    padding: 1px 1px;
+    color: black;
+    font-size: 1.5em;
+    border-style: double black;
+    margin: auto;
+    }
+
+footer a{
+    color: white;
+    
+}
+footer p{
+    font-size: 18px;
+}
+
+
+/*h1.lab{
+    color: aqua;
+}
+
+h1#dark.lab{
+    color: brown;
+}*/
+
+/*<h1 class="lab"> The hot dog</h1>
+      <h1 class="lab" id="dark"> The hot dog</h1>*/
