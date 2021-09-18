@@ -44,6 +44,7 @@ $( document ).ready( () => {
         
         // check user entries for validity
         let isValid = true;
+        const success = "Thank You for your order";
         if ( email === "" || !emailPattern.test(email) ) {
             isValid = false;
             $("#email").next().text("Please enter a valid email.");
@@ -70,6 +71,7 @@ $( document ).ready( () => {
         }
         
         if ( isValid ) { 
+            alert(success);
             // code that saves profile info goes here
         }
         
