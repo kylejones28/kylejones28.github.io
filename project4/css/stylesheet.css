@@ -46,7 +46,7 @@ html {
 /*BODY STYLES*/
 body{
     margin: 0;
-    background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c3026), url('/images/map1.jpg');
+    background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c3026), url('../images/map1.jpg');
 }
  
     
@@ -78,7 +78,7 @@ font-family: 'Lobster', cursive;
  /* Navigation Bar*/
 
 nav{
-background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c302698), url('/images/map1.jpg');
+background-image:linear-gradient(#dc8c243d,#fcdc7b,#5c302698), url('../images/map1.jpg');
 text-align: left;
 text-decoration: none;
 color: white;
