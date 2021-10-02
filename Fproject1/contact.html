@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!--Name: Kyle Jones
+Date: 9/30/2021-->
+<!----------------------------------------------------------------------------------------------------------------
+--
+#Original Author: Kyle Jones                                       #
+#Date Created:  10/1/2021                                      #
+#Version:   1.5                                               #
+#Date Last Modified:  10/1/2021                              #
+#Modified by:  Kyle Jones                                         #
+#Modification log:                                    #
+ --
+ Updated contact page and added regex with javascript!!
+------------------------------------------------------------------------------------------------------------------>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="description" content="HTML Template for reference">
+    <meta name="author" content="Kyle Jones">
+    <meta name="keywords" content="portfolio, ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" type="text/css" href="https://fonts.gstatic.com"> 
+   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>Personal portfolio</title>
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="home.html"> <img src="images/canva-photo-editor.png"></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="home.html">Bio</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="experience.html">Examples</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+    </header>
+    <main class="baker">
+        <h1></h1>
+        <br>
+        <form action="confirm.html" id="form" method="get">
+            <div>
+                <label for="email_address">E-Mail:</label>
+                <input type="text" name="email_address" id="email_address">
+                <span>*</span>
+            </div>
+            <br>
+            <div>
+                <label for="phone">Mobile Phone:</label>
+                <input type="text" name="phone" id="phone">
+                <span>*</span>
+            </div>
+            <br>
+            <div>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="">Select a country</option>
+                    <option>USA</option>
+                    <option>Europe</option>
+                    <option>Asia</option>
+                </select>
+                <span>*</span>
+            </div>
+            <br>
+            <div>
+                <label>Contact me by:</label>
+                <input type="radio" name="contact" id="text"
+                    value="text" checked>Text
+                <input type="radio" name="contact" id="email"
+                    value="email">Email
+                <input type="radio" name="contact" id="mobile"
+                    value="mobile" >Company phone
+                <input type="radio" name="contact" id="social media"
+                    value="social media" >Social Media
+                <input type="radio" name="contact" id="none"
+                    value="none">Don't contact me
+            </div>
+            <br>
+            <div>
+                <label>Terms of Service:</label>
+                <input type="checkbox" name="terms" id="terms"
+                    value="yes"> I accept
+                <span>*</span>
+            </div>
+            <br>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea name="comments" id="comments"></textarea>
+                <span>*</span>
+                
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" id="register"  value="Register">
+                <input type="button" id="reset_form" value="Reset">
+            </div>
+        </div>
+        </form>
+    </main>
+    <br>
+  <footer>
+      <p><a  href="tel:253-348-6145">Phone:(253)348-6145</a>
+          <br><a href="mailto:kylejones8@my.cwi.edu">Email:kylejones8@my.cwi.edu</a></p>
+          <p><a href="https://github.com/"><img src="images/iconmonstr-github-3-48 (1).png" alt="social icon for github"></a>
+				<a href="https://www.linkedin.com/"><img src="images/iconmonstr-linkedin-3-48.png" alt="social icon for linkedin"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="images/iconmonstr-instagram-1-48.png" alt="social icon for instagram"></a>
+          </p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script> 
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+  <script src="./js/contact.js"></script>
+</body>
+</html>
