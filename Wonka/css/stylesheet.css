@@ -1,0 +1,162 @@
+/*********************************************************************
+***
+*Original Author: Kyle Jones                                   *
+*Date Created: 10/6/2021                                     *
+*Version:  1.9                                              *
+*Date Last Modified: 10/7/2021                            *
+*Modified by:  Kyle Jones                                       *
+*Modification log:                                  *
+***
+Added CSS and updated corrections!!
+
+source;
+https://www.wideopeneats.com/laffy-taffy/
+******************************************************************** */
+
+html{
+    margin: 0;
+}
+
+/* Header */
+.headers{
+    text-align: center;
+    font-size: 2.2em;
+    color:black;
+    text-shadow: 2px 2px gray;
+
+}
+.candy{
+    margin-top: 2em;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Sections */
+
+.chocolateSection{
+   /* The image used */
+   background-image: url('../images/wonkabar.png');
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  
+
+   text-align: center;
+   
+
+}
+.chocolate{
+    color: white;
+    background-color: chocolate;
+    opacity: 85%;
+    padding: 1.5em;
+}
+
+.spacer{
+    height: 150px;
+}
+
+
+.nerdsSection{
+    /* The image used */
+   background-image: url('../images/nerdss.jpg');
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  
+
+   text-align: center;
+   color: rgb(244, 244, 247);
+}
+
+.nerds{
+    color: white;
+    background-color: violet;
+    opacity: 90%;
+    padding: 1.5em;
+}
+
+.tartySection{
+    /* The image used */
+   background-image: url('../images/sweettartss.jpg');
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  
+
+   text-align: center;
+   color: rgb(244, 244, 247);
+}
+
+.tarts{
+    color: white;
+    background-color: rgb(79, 201, 241);
+    opacity: 90%;
+    padding: 1.5em;
+}
+
+.laffySection{
+    /* The image used */
+   background-image: url('../images/laffy\ taffy.png');
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  
+
+   text-align: center;
+   color: rgb(244, 244, 247);
+}
+
+.taffy{
+    color: white;
+    background-color: rgb(43, 194, 56);
+    opacity: 90%;
+    padding: 1.5em; 
+}
+
+.gooberSection{
+    /* The image used */
+   background-image: url('../images/gobstopperss.jpg');
+
+   /* Set a specific height */
+   min-height: 500px;
+ 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;  
+
+   text-align: center;
+   color: rgb(244, 244, 247);
+}
+
+.gob{
+    color: white;
+    background-color: rgb(111, 64, 221);
+    opacity: 90%;
+    padding: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
